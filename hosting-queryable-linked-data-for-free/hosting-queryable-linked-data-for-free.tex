@@ -66,7 +66,7 @@ Hosting an RDF file is a lot easier than hosting a SPARQL endpoint.
 {\fontsize{30}{30} {\cmr 
 \noindent SPARQL endpoints {\color{blue}suffer from low-availability.}
 \\ \\
-They offer consumers the ability to run any query they want. Therefore consumers will run any query they want and will quickly overload the server with too many complex requests.
+They offer consumers the ability to run any query they want. Consumers will run any query they want and will quickly overload the server with too many complex requests.
 }
 \vspace{10 mm}
 \begin{figure}[ht!]
@@ -155,7 +155,7 @@ We need at least 8 static files for each triple if we want to match all combinat
 \end{center}
 \vspace{10 mm}
 {\fontsize{30}{30} {\cmr 
-\noindent Having all combinations is important for triple pattern fragments \textit{enabled} clients so they can run complex queries, even SPARQL queries!
+\noindent Having all combinations is important for triple pattern fragments enabled clients so they can run complex queries, even SPARQL queries!
 \\\\
 So we can host queryable linked data on GitHub Pages:
 \begin{center}
@@ -184,6 +184,61 @@ So we can host queryable linked data on GitHub Pages:
 
 Instead of static files we use their native APIs to store and retrieve triples.
 }} 
+
+
+\newpage
+
+\begin{center}
+{\fontsize{35}{35}\color{blue} \sc LDF-GAE}
+\end{center}
+\vspace{20 mm}
+
+{\fontsize{30}{30} {\cmr 
+\noindent Storing triples on App Engine's high-replication datastore is quite simple, and we can even match combinations using their native APIs.
+\\ \\
+{\color{blue}Stored as:}
+}} 
+\begin{center}
+\begin{small}
+\begin{verbatim}
+{
+  "subject"  : triple.getSubject().toString(),
+  "predicate": triple.getPredicate().toString(),
+  "object"   : triple.getObject().toString()
+}
+\end{verbatim}
+\end{small}
+\end{center}
+
+
+\newpage
+
+\begin{center}
+{\fontsize{35}{35}\color{blue} \sc LDF-GAE}
+\end{center}
+\vspace{20 mm}
+
+{\fontsize{30}{30} {\cmr 
+\noindent To retrieve each triple pattern combination we use their native API calls:
+}} 
+\begin{center}
+\begin{small}
+\begin{verbatim}
+var filter = {}; 
+if(subject)
+    filter['subject'] = subject;
+if(predicate)
+    filter['predicate'] = predicate;
+if(object)
+    filter['object'] = object;
+
+// query datastore
+var query = new Query('triple');
+for(var x in filter)
+    query.addFilter(x, Query.FilterOperator.EQUAL, filter[x]);
+\end{verbatim}
+\end{small}
+\end{center}
 
 
 \end{document}
