@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.6.10)  10 OCT 2014 11:45
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.6.10)  10 OCT 2014 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -425,6 +425,9 @@ LaTeX Info: Redefining \scshape on input line 2097.
 LaTeX Info: Redefining \upshape on input line 2102.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -741,6 +744,10 @@ LaTeX Info: Redefining \nameref on input line 14.
 LaTeX Font Warning: Font shape `EU1/Fontin(0)/m/sc' undefined
 (Font)              using `EU1/Fontin(0)/m/n' instead on input line 20.
 
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 26.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
@@ -748,148 +755,193 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 40--43
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--52
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
 
  []
 
 [2]
 File: sparql.png Graphic file (type QTm)
  <use  "sparql.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 67--76
+Underfull \hbox (badness 10000) in paragraph at lines 72--81
 
  []
 
 
-Overfull \hbox (10.08148pt too wide) in paragraph at lines 67--76
+Overfull \hbox (10.08148pt too wide) in paragraph at lines 72--81
 \T1/cmr/m/n/29.86 They of-fer con-sumers the abil-ity to run any query
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 88--94
+Underfull \hbox (badness 10000) in paragraph at lines 93--99
 
  []
 
 
-Overfull \hbox (1.69589pt too wide) in paragraph at lines 88--94
+Overfull \hbox (1.69589pt too wide) in paragraph at lines 93--99
 \T1/cmr/m/n/29.86 Fortunately SPARQL end-points are not the only
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--94
+Underfull \hbox (badness 10000) in paragraph at lines 93--99
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 103--107
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
 
  []
 
 
-Overfull \hbox (6.69508pt too wide) in paragraph at lines 108--111
+Overfull \hbox (6.69508pt too wide) in paragraph at lines 113--116
 []\T1/cmr/m/n/29.86 Users can run SPARQL queries against Linked
  []
 
 [5]
 File: GitHub.jpg Graphic file (type QTm)
  <use  "GitHub.jpg" >
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 126.
-
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 124--130
+Underfull \hbox (badness 10000) in paragraph at lines 129--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--130
+Underfull \hbox (badness 10000) in paragraph at lines 129--135
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 139--150
+Underfull \hbox (badness 10000) in paragraph at lines 144--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--150
+Underfull \hbox (badness 10000) in paragraph at lines 144--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--150
+Underfull \hbox (badness 10000) in paragraph at lines 144--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--150
+Underfull \hbox (badness 10000) in paragraph at lines 144--155
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 158--161
+Underfull \hbox (badness 10000) in paragraph at lines 163--166
 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <30> on input line 162.
+LaTeX Font Info:    Calculating math sizes for size <30> on input line 167.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <30> not available
-(Font)              size <24.88> substituted on input line 162.
+(Font)              size <24.88> substituted on input line 167.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <15> not available
-(Font)              size <14.4> substituted on input line 162.
+(Font)              size <14.4> substituted on input line 167.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <30> not available
-(Font)              size <24.88> substituted on input line 162.
+(Font)              size <24.88> substituted on input line 167.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <15> not available
-(Font)              size <14.4> substituted on input line 162.
+(Font)              size <14.4> substituted on input line 167.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <30> not available
-(Font)              size <24.88> substituted on input line 162.
+(Font)              size <24.88> substituted on input line 167.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15> not available
-(Font)              size <14.4> substituted on input line 162.
+(Font)              size <14.4> substituted on input line 167.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <15> not available
-(Font)              size <14.4> substituted on input line 162.
+(Font)              size <14.4> substituted on input line 167.
 
 [8]
 File: appengine-logo.png Graphic file (type QTm)
  <use  "appengine-logo.png" > [9]
-Overfull \hbox (1.09695pt too wide) in paragraph at lines 197--201
+Overfull \hbox (1.09695pt too wide) in paragraph at lines 202--206
 \T1/cmr/m/n/29.86 data-s-tore is quite sim-ple, and we can even match
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--201
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
 
  []
 
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 203
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 208
 .
 (/usr/local/texlive/2013/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
- [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
+Overfull \hbox (7.13942pt too wide) in paragraph at lines 240--240
+[]    \EU1/lmtt/m/n/17.28 Query.FilterOperator.EQUAL, request.getParameter('sub
+ject'));[] 
+ []
 
-(./hosting-queryable-linked-data-for-free.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 244.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 244.
+
+Overfull \hbox (24.9378pt too wide) in paragraph at lines 240--240
+[]    \EU1/lmtt/m/n/17.28 Query.FilterOperator.EQUAL, request.getParameter('pre
+dicate'));[] 
+ []
+
+[11]
+Overfull \hbox (92.42346pt too wide) in paragraph at lines 258--258
+[]\EU1/lmtt/m/n/30 http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname[] 
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 284--288
+
+ []
+
+[13]
+Overfull \hbox (27.80869pt too wide) in paragraph at lines 300--301
+[][][]$\T1/lmtt/m/n/30 https : / / github . com / lmatteis / ldstatic$[][] 
+ []
+
+
+Overfull \hbox (12.87119pt too wide) in paragraph at lines 302--304
+[][][]$\T1/lmtt/m/n/30 https : / / github . com / lmatteis / ldf-[]gae$[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--304
+
+ []
+
+[14]
+Overfull \hbox (7.2146pt too wide) in paragraph at lines 313--315
+\T1/cmr/m/n/29.86 avail-abil-ity on low-cost Web servers rang-ing from
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 328--331
+
+ []
+
+
+Overfull \hbox (28.30869pt too wide) in paragraph at lines 332--334
+[][][]$\T1/lmtt/m/n/30 http : / / www . hydra-[]cg . com / spec / latest /
+ []
+
+[16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 344.
+ [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 344.
+ (./hosting-queryable-linked-data-for-free.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 344.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 344.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -898,19 +950,19 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 344.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 66 ({)
+### simple group (level 1) entered at line 71 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21566 strings out of 493938
- 422860 string characters out of 6148857
- 426059 words of memory out of 5000000
- 24683 multiletter control sequences out of 15000+600000
- 11585 words of font info for 51 fonts, out of 8000000 for 9000
+ 21596 strings out of 493938
+ 423418 string characters out of 6148857
+ 426280 words of memory out of 5000000
+ 24704 multiletter control sequences out of 15000+600000
+ 13840 words of font info for 61 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 46i,7n,33p,611b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,7n,33p,611b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on hosting-queryable-linked-data-for-free.pdf (11 pages).
+Output written on hosting-queryable-linked-data-for-free.pdf (17 pages).

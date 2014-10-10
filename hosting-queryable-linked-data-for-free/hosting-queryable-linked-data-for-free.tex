@@ -2,7 +2,7 @@
 \usepackage[landscape]{geometry}
 \usepackage{fontspec}
 \usepackage{graphicx}
-
+\usepackage{alltt}
 \usepackage[xetex, bookmarks, colorlinks, breaklinks]{hyperref}
 \hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue} 
 \usepackage[usenames,dvipsnames]{color}
@@ -21,9 +21,14 @@
 
 \vspace{10 mm}
 
-{\cmr Luca Matteis \href{https://twitter.com/lmatteis}{@lmatteis}}
+{\cmr Luca Matteis  and Ruben Verborgh}
 \\
-{\cmr Ruben Verborgh \href{https://twitter.com/RubenVerborgh}{@RubenVerborgh}}
+{\cmr \url{http://lucaa.org} / \url{http://ruben.verborgh.org/}}
+\\
+{\cmr \href{https://twitter.com/lmatteis}{@lmatteis} / \href{https://twitter.com/RubenVerborgh}{@RubenVerborgh}}
+\\
+{\cmr \small Bioversity International / Multimedia Lab --- Ghent University --- iMinds}
+
 
 \vspace*{\fill}
 \end{center}
@@ -224,21 +229,116 @@ Instead of static files we use their native APIs to store and retrieve triples.
 \begin{center}
 \begin{small}
 \begin{verbatim}
-var filter = {}; 
-if(subject)
-    filter['subject'] = subject;
-if(predicate)
-    filter['predicate'] = predicate;
-if(object)
-    filter['object'] = object;
-
 // query datastore
 var query = new Query('triple');
-for(var x in filter)
-    query.addFilter(x, Query.FilterOperator.EQUAL, filter[x]);
+query.addFilter('subject', 
+    Query.FilterOperator.EQUAL, request.getParameter('subject'));
+query.addFilter('predicate', 
+    Query.FilterOperator.EQUAL, request.getParameter('predicate'));
+query.addFilter('object', 
+    Query.FilterOperator.EQUAL, request.getParameter('object'));
 \end{verbatim}
 \end{small}
 \end{center}
 
+
+\newpage
+
+\begin{center}
+{\fontsize{35}{35}\color{blue} \sc LDF-GAE}
+\end{center}
+\vspace{20 mm}
+
+{\fontsize{30}{30} {\cmr 
+\noindent To retrieve each triple pattern combination we use their native API calls:
+}} 
+\begin{alltt}
+$curl http://ldf-gae.appspot.com/\(\hookleftarrow\)
+?{\color{blue}predicate}=\(\hookleftarrow\)
+http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname
+\end{alltt}
+{\fontsize{30}{30} {\cmr 
+\noindent \color{blue} Response:
+}} 
+\begin{center}
+\begin{tiny}
+\begin{alltt}
+<http://www.kjetil.kjernsmo.net/foaf#me> {\color{blue}<http://xmlns.com/foaf/0.1/name>} "Kjetil Kjernsmo" .
+<http://www.cs.umd.edu/~hendler/2003/foaf.rdf#jhendler> {\color{blue}<http://xmlns.com/foaf/0.1/name>} "Jim Hendler" .
+<http://www.w3.org/People/Jacobs/contact.rdf#IanJacobs> {\color{blue}<http://xmlns.com/foaf/0.1/name>} "Ian Jacobs" .
+<http://id.ecs.soton.ac.uk/person/60> {\color{blue}<http://xmlns.com/foaf/0.1/name>} "Les Carr" .
+<http://people.csail.mit.edu/psz/foaf.rdf#me> {\color{blue}<http://xmlns.com/foaf/0.1/name>} "Peter Szolovits" .
+<http://www.w3.org/People/EM/contact#me> {\color{blue}<http://xmlns.com/foaf/0.1/name>} "Eric Miller" .
+\end{alltt}
+\end{tiny}
+\end{center}
+
+\newpage
+
+\begin{center}
+{\fontsize{35}{35}\color{blue} \sc How is this novel?}
+\end{center}
+\vspace{20 mm}
+
+{\fontsize{30}{30} {\cmr 
+\noindent We can exploit a variety of {\color{blue}free} hosting services to publish our Linked Data and have clients query them. No more sys-admin tasks. Less down times.
+\\\\
+For small datasets this is \textbf{more sustainable}, \textbf{more economical} and best of all it's \textbf{easier}!
+}} 
+
+
+\newpage
+
+\begin{center}
+{\fontsize{35}{35}\color{blue} \sc How to use?}
+\end{center}
+\vspace{20 mm}
+
+{\fontsize{30}{30} {\cmr 
+\noindent Both tools are on GitHub with documentation and you can use them right now: 
+
+\url{https://github.com/lmatteis/ldstatic}
+
+\url{https://github.com/lmatteis/ldf-gae}
+}} 
+
+\newpage
+
+\begin{center}
+{\fontsize{35}{35}\color{blue} \sc Conclusion}
+\end{center}
+\vspace{20 mm}
+
+{\fontsize{30}{30} {\cmr 
+\noindent We proved that triple pattern fragments is a type of linked data can be published with high availability on low-cost Web servers ranging from basic file repositories to highly scalable cloud platforms.
+}} 
+
+
+\newpage
+
+
+\begin{center}
+{\fontsize{35}{35}\color{blue} \sc References}
+\end{center}
+\vspace{20 mm}
+
+{\fontsize{30}{30} {\cmr 
+\noindent Linked Data Fragments --
+
+\url{http://linkeddatafragments.org/}
+\\ \\
+Triple Pattern Fragments protocol -- 
+
+\url{http://www.hydra-cg.com/spec/latest/triple-pattern-fragments/}
+}} 
+
+
+\newpage
+
+\vspace*{\fill}
+\begin{center}
+{\fontsize{35}{35}\color{blue} \sc Thank you!}
+\end{center}
+\vspace*{\fill}
 
 \end{document}
