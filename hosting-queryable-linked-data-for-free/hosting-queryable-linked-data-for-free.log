@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.6.10)  13 OCT 2014 11:20
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.6.10)  13 OCT 2014 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -846,11 +846,6 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [7]
 Underfull \hbox (badness 10000) in paragraph at lines 165--168
 
- []
-
-
-Overfull \hbox (10.39944pt too wide) in paragraph at lines 165--168
-\T1/ptm/m/n/30 So we can host queryable linked data on GitHub
  []
 
 LaTeX Font Info:    Calculating math sizes for size <30> on input line 169.
