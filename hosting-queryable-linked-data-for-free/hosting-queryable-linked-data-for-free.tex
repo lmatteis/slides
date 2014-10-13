@@ -9,7 +9,8 @@
 \setmainfont{Fontin}
 \pagestyle{empty}
 
-\newcommand{\cmr}{\fontencoding{T1}\fontfamily{ptm}\selectfont} % Computer Modern Roman
+%\newcommand{\cmr}{\fontencoding{T1}\fontfamily{cmr}\fontseries{m}\fontshape{n}\selectfont} % Computer Modern Roman
+\newfontfamily\cmr{CMU Serif}
 \linespread{1.3} 
 
 \begin{document}
@@ -22,7 +23,7 @@
 
 \vspace{10 mm}
 
-{\cmr Luca Matteis  and Ruben Verborgh}
+{\cmr Luca Matteis \textit{and} Ruben Verborgh}
 \\
 {\cmr \url{http://lucaa.org} / \url{http://ruben.verborgh.org/}}
 \\
@@ -103,7 +104,7 @@ Fortunately SPARQL endpoints are not the only way of publishing queryable Linked
 {\fontsize{35}{35}\color{blue} \sc LDstatic \& LDF-GAE}
 \end{center}
 \vspace{20 mm}
-{\fontsize{30}{30} {\cmr 
+{\fontsize{25}{25} {\cmr 
 \noindent We have developed two tools, LDstatic \& LDF-GAE, that implement the \textit{TPF} protocol on low cost servers.
 \\ \\
 {\color{blue} 
